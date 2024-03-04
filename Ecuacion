@@ -2,9 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Constantes
-A = 3  # Puedes cambiar este valor entre -5 y 5
-W = 1  # Puedes cambiar este valor entre -5 y 5
-a = -2 # Puedes cambiar este valor entre -5 y 5
+A = 3  # Cambiar este valor entre -5 y 5
+W = 1  # Cambiar este valor entre -5 y 5
+a = -2 # Cambiar este valor entre -5 y 5
 
 # Rango de valores para x
 x = np.linspace(-10, 10, 400)
