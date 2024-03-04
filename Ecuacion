@@ -1,0 +1,21 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Constantes
+A = 3  # Puedes cambiar este valor entre -5 y 5
+W = 1  # Puedes cambiar este valor entre -5 y 5
+a = -2 # Puedes cambiar este valor entre -5 y 5
+
+# Rango de valores para x
+x = np.linspace(-10, 10, 400)
+
+# Calculando y usando la ecuación dada
+y = A * np.sin(W * x + a)
+
+# Graficando la función
+plt.plot(x, y)
+plt.title('Gráfico de y = A * sin(W * x + a)')
+plt.xlabel('x')
+plt.ylabel('y')
+plt.grid(True)
+plt.show()
